@@ -20,12 +20,12 @@ This project analyzes an e-commerce dataset from South Africa in 2024 to uncover
 - **💡 Business Insight Generation:** Profitability trends, Premium vs. non-premium performance, City-level profitability, Discount impact analysis, Product & brand segmentation
 ## 📌 Project Overview
 ### 📂 Data Cleaning Steps
-![Dashboard](/images/SA%20Excel.PNG)
+![Excel](/Images/SA%20Excel.PNG)
 Using Excel I Removed duplicates & standardized column names. Handled missing values (ie. instead of empty space make Unknown Customer) and also filled up products based on product detail. Fixed inconsistent values (like mobile and mobile phone). Converted data types (dates, decimals for sales & profit). Added **"is_premium"** column to classify premium products. 
 
 
 ### 🔎 SQL Analysis Performed
-![alt text](images/SA%20SQL.PNG)
+![alt text](Images/SA%20SQL.PNG)
 - **Data Preparation:** Ensured correct data types for date, numeric, and categorical fields. Created calculated field such as profit_margin to enable advanced analysis.
 - **Descriptive Analysis:** Aggregated sales, profit, and quantity across time periods. Summarized performance by product categories, brands, and cities. Calculated customer-level statistics such as total spend and average order value (AOV).
 - **Comparative Analysis:** Compared profitability across product categories and brands. Evaluated city-level performance by total sales, profit, and margins. Analyzed discount brackets to assess their impact on profitability. Assessed the impact of different discount levels on sales and profit margins.
